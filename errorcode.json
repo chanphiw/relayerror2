@@ -1,0 +1,256 @@
+{
+  "errorcode": [
+    {
+     "IEC61850": "PHLPTOC",
+     "IEC60617": "3I>",
+     "ANSI": "51P-1",
+     "Description": "Three-phase non-directional overcurrent protection, low stage"
+    },
+    {
+     "IEC61850": "PHHPTOC",
+     "IEC60617": "3I>>",
+     "ANSI": "51P-2",
+     "Description": "Three-phase non-directional overcurrent protection, high stage "
+    },
+    {
+     "IEC61850": "PHIPTOC",
+     "IEC60617": "3I>>>",
+     "ANSI": "50P\/51P",
+     "Description": "Three-phase non-directional overcurrent protection, instantaneous stage"
+    },
+    {
+     "IEC61850": "DPHLPDOC",
+     "IEC60617": "3I> →",
+     "ANSI": "67-1",
+     "Description": "Three-phase directional overcurrent protection, low stage"
+    },
+    {
+     "IEC61850": "DPHHPDOC",
+     "IEC60617": "3I>> →",
+     "ANSI": "67-2",
+     "Description": "Three-phase directional overcurrent protection, high stage"
+    },
+    {
+     "IEC61850": "EFLPTOC",
+     "IEC60617": "Io>",
+     "ANSI": "51N-1",
+     "Description": "Non-directional earth fault protection, low stage"
+    },
+    {
+     "IEC61850": "EFHPTOC",
+     "IEC60617": "Io>>",
+     "ANSI": "51N-2",
+     "Description": "Non-directional earth fault protection, high stage"
+    },
+    {
+     "IEC61850": "EFIPTOC",
+     "IEC60617": "Io>>>",
+     "ANSI": "50N\/51N",
+     "Description": "Non-directional earth fault protection, instantaneous stage"
+    },
+    {
+     "IEC61850": "DEFLPDEF",
+     "IEC60617": "Io> →",
+     "ANSI": "67N-1",
+     "Description": "Directional earth fault protection, low stage"
+    },
+    {
+     "IEC61850": "DEFHPDEF",
+     "IEC60617": "Io>> →",
+     "ANSI": "67N-2",
+     "Description": "Directional earth fault porotection, hig stage"
+    },
+    {
+     "IEC61850": "EFPADM",
+     "IEC60617": "Yo> →",
+     "ANSI": "21YN",
+     "Description": "Admittance based earth-fault protection"
+    },
+    {
+     "IEC61850": "WPWDE",
+     "IEC60617": "Po> →",
+     "ANSI": "32N",
+     "Description": "Wattmetric based earth-fault protection"
+    },
+    {
+     "IEC61850": "INTRPTEF",
+     "IEC60617": "Io> → IEF",
+     "ANSI": "67NIEFH",
+     "Description": "Transient \/ intermittent earth-fault protection "
+    },
+    {
+     "IEC61850": "HAEFPTOC",
+     "IEC60617": "Io>HA",
+     "ANSI": "51NHA",
+     "Description": "Harmonics based earth-fault protection"
+    },
+    {
+     "IEC61850": "NSPTOC",
+     "IEC60617": "I2>",
+     "ANSI": 46,
+     "Description": "Negative-sequence overcurrent protection"
+    },
+    {
+     "IEC61850": "PDNSPTOC",
+     "IEC60617": "I2\/I1>",
+     "ANSI": "46PD",
+     "Description": "Phase discontinuity protection"
+    },
+    {
+     "IEC61850": "ROVPTOV",
+     "IEC60617": "Uo>",
+     "ANSI": "59G",
+     "Description": "Residual overvoltage protection"
+    },
+    {
+     "IEC61850": "PHPTUV",
+     "IEC60617": "3U<",
+     "ANSI": 27,
+     "Description": "Three-phase undervoltage protection"
+    },
+    {
+     "IEC61850": "PHPTOV",
+     "IEC60617": "3U>",
+     "ANSI": 59,
+     "Description": "Three-phase overvoltage protection"
+    },
+    {
+     "IEC61850": "PSPTUV",
+     "IEC60617": "U1<",
+     "ANSI": "47U+",
+     "Description": "Positive-sequence undervoltage protection"
+    },
+    {
+     "IEC61850": "NSPTOV",
+     "IEC60617": "U2>",
+     "ANSI": "47O-",
+     "Description": "Negative-sequence overvoltage protection"
+    },
+    {
+     "IEC61850": "FRPFRQ",
+     "IEC60617": "f>\/f",
+     "ANSI": 81,
+     "Description": "Frequence protection"
+    },
+    {
+     "IEC61850": "T1PTTR",
+     "IEC60617": "3lth>F",
+     "ANSI": "49F",
+     "Description": "Three-phase thermal protection for feeders, cables and distribution transformers"
+    },
+    {
+     "IEC61850": "PHPTUC",
+     "IEC60617": "3l<",
+     "ANSI": "37F",
+     "Description": "Loss of phase (undercurrent) "
+    },
+    {
+     "IEC61850": "CCBRBRF",
+     "IEC60617": "3I>\/Io>BF",
+     "ANSI": "51BF\/51NBF",
+     "Description": "Circuit breaker failure protection"
+    },
+    {
+     "IEC61850": "INRPHAR",
+     "IEC60617": "3l2f>",
+     "ANSI": 68,
+     "Description": "Three-phase inrush detector"
+    },
+    {
+     "IEC61850": "TRPPTRC",
+     "IEC60617": "Master Trip",
+     "ANSI": "94\/86",
+     "Description": "Master trip"
+    },
+    {
+     "IEC61850": "ARCSARC",
+     "IEC60617": "ARC",
+     "ANSI": "50L\/50NL",
+     "Description": "Arc protection"
+    },
+    {
+     "IEC61850": "PHIZ",
+     "IEC60617": "PHIZ",
+     "ANSI": "PHIZ",
+     "Description": "High impedance fault detection"
+    },
+    {
+     "IEC61850": "LSHDPFRQ",
+     "IEC60617": "UFLS\/R",
+     "ANSI": "81LSH",
+     "Description": "Load shedding and restoration"
+    },
+    {
+     "IEC61850": "MAPGAPC",
+     "IEC60617": "MAP",
+     "ANSI": "MAP",
+     "Description": "Multipurpose analog protection"
+    },
+    {
+     "IEC61850": "LOFLPTUC",
+     "IEC60617": "3l<",
+     "ANSI": "37M",
+     "Description": "Loss of load supervision"
+    },
+    {
+     "IEC61850": "JAMPTOC",
+     "IEC60617": "Ist>",
+     "ANSI": "51LR",
+     "Description": "Motor load jam protection"
+    },
+    {
+     "IEC61850": "STTPMSU",
+     "IEC60617": "Is2t n<",
+     "ANSI": "49,66,48,51LR",
+     "Description": "Motor start-up supervision"
+    },
+    {
+     "IEC61850": "PREVPTOC",
+     "IEC60617": "I2>>",
+     "ANSI": "46R",
+     "Description": "Phase reversal protection"
+    },
+    {
+     "IEC61850": "MPTTR",
+     "IEC60617": "3lth>M",
+     "ANSI": "49M",
+     "Description": "Thermal overload protection for motors"
+    },
+    {
+     "IEC61850": "MPDIF",
+     "IEC60617": "3dl>M",
+     "ANSI": "87M",
+     "Description": "Motor differential protection"
+    },
+    {
+     "IEC61850": "OEPVPH",
+     "IEC60617": "U\/f>",
+     "ANSI": 24,
+     "Description": "Voltage per hertz protection"
+    },
+    {
+     "IEC61850": "T2PTTR",
+     "IEC60617": "3lth>T",
+     "ANSI": "49T",
+     "Description": "Three-phase thermal overload protection for power transformers, two time constants"
+    },
+    {
+     "IEC61850": "TR2PTDF",
+     "IEC60617": "3dl>T",
+     "ANSI": "87T",
+     "Description": "Stabilized and instantaneous differential protection for 2-winding transformers"
+    },
+    {
+     "IEC61850": "LREFPNDF",
+     "IEC60617": "dIoHi>",
+     "ANSI": "87NL",
+     "Description": "Numerical stabilized low impedance resticted earth-fault protection"
+    },
+    {
+     "IEC61850": "HREFPDIF",
+     "IEC60617": "dIoHi>",
+     "ANSI": "87NH",
+     "Description": "High impedance based restricted earth-fault protection "
+    }
+   ]
+}
